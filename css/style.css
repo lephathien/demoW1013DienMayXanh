@@ -83,13 +83,15 @@
 
 .menu-list{
     display: none;
-    margin-top: 12px;
-    margin-left: 340px;
+    
     text-align: left;
     list-style: none;
     position:absolute;
     background-color:white ;
     color: black;
+    left: 0;
+    top: 20px;
+    width: 100%;
  
 
 }
@@ -281,9 +283,6 @@
     line-height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-
-}
-.column img{
 
 }
 .form-sale{
