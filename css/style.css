@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+
+}
+#slide-noel{
+    position: fixed;
+    width: 200px;
+    margin-top: 300px;
+}
+#slide-noel1{
+    position: fixed;
+    width: 200px;
+    margin-top: 500px;
+
+}
+.box-top-quangcao{
+    width: 100%;
+    /* margin: 10px auto; */
+    background-color: #00a6fd;
+    text-align: center;
+    margin-bottom: -5px;
+   
+}
+
+
+.box-top-logo{
+    background-color: #4a90e2;
+    width: 100%;
+    /* margin: 10px auto; */
+    float: left;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.box-top-logo img{
+    height: 44px;
+    width: 182px;
+
+}
+.button-top{
+    color: white;
+    font-size: 13px;
+    border: 1px solid rgba(168,208,255,.38);
+    border-radius: 4px;
+    padding: 6px 14px;
+    line-height: 28px;
+    margin: 0px 15px 0px 10px ;
+}
+.search{
+    padding: 8px 13px;
+    margin: 10px auto;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.box-top-logo input{
+    width: 160px;
+    font-size: 11px;
+}
+.box-menu{
+    background-color: #4a90e2;
+    width: 100%;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.box-menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-menu a:hover{
+    box-shadow:0px 3px  white;
+
+}
+
+.button-menu{
+    position: relative;
+}
+
+.menu-list{
+    display: none;
+    
+    text-align: left;
+    list-style: none;
+    position:absolute;
+    background-color:white ;
+    color: black;
+    left: 0;
+    top: 20px;
+    width: 100%;
+ 
+
+}
+.menu-list li{
+    display: inline-block;
+    line-height: 40px;
+    width: 150px;
+
+}
+
+.button-menu:hover .menu-list{
+    display: block;
+}
+
+
+
+.menu-list li:hover{
+    display:flex;
+    line-height: 40px;
+    color: #00a6fd;
+    /* background-color: #faab08; */
+}
+
+.box-banner img{
+    width: 100%;
+}
+.box-banner-quangcao{
+    text-align: center;
+}
+.box-banner-quangcao img{
+    width: 1200px;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+.box-banner-quangcao img:hover{
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: 0.5s ease;}
+.box-deal-soc{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+
+}
+.box-sanpham{
+    background-color: #E9F6FF;
+    width: 100%;
+
+}
+.boder-sanpham{
+    width: 1200px;
+    margin: -4px  auto;
+    text-align: center;
+    background-color: #E9F6FF;
+
+}
+.sanpham{
+    text-align: left;
+    float: left;
+    width: 17%;
+    height: 380px;
+    border: 8px solid blue;
+    background-color: white;
+    padding: 10px;
+
+}
+.sanpham img{
+    width: 195px;
+    padding: 9px;
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+
+}
+.sanpham img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.label-tragop{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 11px;
+}
+.label-sale{
+    display: inline-block;
+    background: linear-gradient(to right,#faab08,#d42611);
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 11px;
+    margin-bottom: 10px;
+
+}
+.sanpham .gia{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+.sanpham .sao{
+    color: orange;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+.online-gia-re{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.box-atm{
+    width: 1200px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.atm{
+    float: left;
+    margin: 10px;
+}
+
+.atm img{
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+.atm img:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 8px; */
+    transform: translate(0, -10px);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+.title{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.title img{
+    width: 40px;
+}
+.box-khuyen-mai-noel{
+    width: 1200px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.khuyen-mai-noel{
+    float: left;
+    margin: 10px;
+    width: 48%;  
+}
+.khuyen-mai-noel img{
+    width: 580px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    opacity:1;
+    transition: 1s ease;
+}
+.khuyen-mai-noel img:hover{
+    opacity:0.5;
+    transition: 1s ease;
+}
+.footer{
+    width: 100%;
+    float: left;
+    min-height: 280px;
+    text-align: left;
+    justify-content: center;
+    background-color: orange;
+
+
+}
+.row{
+    margin-top: 20px;
+    margin-left: 220px;
+    width: 1200px;
+}
+.column{
+    margin-left: 20px;
+    width: 22%;
+    float: left;
+    color:white;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.form-sale{
+    background-color: #008847;
+    border-radius: 20px;
+    padding: 12px;
+    width: 220px;
+}
+.form-sale input{
+    margin: 6px 0px ;
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    padding-left: 10px;
+}
+.form-sale button{
+    margin: 6px 0px ;
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background-color: darkgrey;
+    color: white;
+}
+
+
